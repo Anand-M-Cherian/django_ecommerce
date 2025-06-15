@@ -1,0 +1,18 @@
+branch-defaults:
+  main:
+    environment: django-ecommerce-env
+    group_suffix: null
+global:
+  application_name: django_ecommerce
+  branch: null
+  default_ec2_keyname: django-ecommerce-app
+  default_platform: Python 3.13 running on 64bit Amazon Linux 2023
+  default_region: ap-south-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: null
+  sc: git
+  workspace_type: Application
