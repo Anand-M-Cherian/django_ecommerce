@@ -2,6 +2,10 @@ branch-defaults:
   main:
     environment: django-ecommerce-env
     group_suffix: null
+environment-defaults:
+  django-ecommerce-env:
+    branch: null
+    repository: null
 global:
   application_name: django_ecommerce
   branch: null
@@ -16,3 +20,4 @@ global:
   repository: null
   sc: git
   workspace_type: Application
+  instance_profile: aws-elasticbeanstalk-ec2-role
